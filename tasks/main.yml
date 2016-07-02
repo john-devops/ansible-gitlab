@@ -1,0 +1,7 @@
+---
+# tasks file for gitlab
+- include: install.yml
+  tags: install
+  
+- include: config.yml
+  tags: config

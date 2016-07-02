@@ -1,0 +1,8 @@
+- get_url:
+    url: https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh 
+    dest: /tmp 
+    mode: 0555
+
+- command: /tmp/script.deb.sh
+
+- apt: pkg=gitlab-ce update_cache=yes state=installed
