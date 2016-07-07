@@ -8,4 +8,4 @@
 
 - include: reconfig.yml
   tags: reconfig
-  when: reconfig == true
+  when: reconfig | bool
