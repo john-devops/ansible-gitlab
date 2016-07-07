@@ -1,8 +1,9 @@
-# ansible-gitlab
+# ansible-gitlab-ce
 Ansible role for install Gitlab CE
 
-## Gitlab CE + email
-Default main.yml of Gitlab uses yandex.ru for sending notification and reply by email
+## Default variables
+**defaults/main.yml:**  
+gitlab_address: gitlab.local
 
 ## ToDo
 Create ticket by email

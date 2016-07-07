@@ -1,10 +1,1 @@
-gitlab_smtp_server: smtp.yandex.ru
-gitlab_smtp_port: 587
-gitlab_imap_server: imap.yandex.ru
-gitlab_imap_port: 993
-gitlab_email_domain: yandex.ru
-
-#change the following
-gitlab_email: user@yandex.ru
-gitlab_email_password: password
-gitlab_address: test.local
+gitlab_address: gitlab.local
