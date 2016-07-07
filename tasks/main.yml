@@ -6,11 +6,6 @@
 - include: config.yml
   tags: config
 
-- name: reconfig
-  vars:
-    reconfig: true
-  tags: reconfig
-
 - include: reconfig.yml
   tags: reconfig
   when: reconfig == true
