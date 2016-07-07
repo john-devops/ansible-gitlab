@@ -5,3 +5,8 @@
   
 - include: config.yml
   tags: config
+
+- include: reconfig.yml
+  tags: reconfig
+  when: reconfig == true
+  
