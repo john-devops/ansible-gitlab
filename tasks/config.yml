@@ -1,2 +1,2 @@
-- copy: template=gitlab.j2 dest=/etc/gitlab/gitlab.rb
+- template: name=gitlab.j2 dest=/etc/gitlab/gitlab.rb
 - command: gitlab-ctl reconfigure
