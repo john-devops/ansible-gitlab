@@ -1,2 +1,2 @@
-- template: src=gitlab.j2 dest=/etc/gitlab/gitlab.rb
+- copy: src=files/{{ inventory_hostname }}/gitlab.rb dest=/etc/gitlab/
 - command: gitlab-ctl reconfigure
